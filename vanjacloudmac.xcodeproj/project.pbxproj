@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7881BF692989CFA4002C6D56 /* vanjacloudmacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF682989CFA4002C6D56 /* vanjacloudmacApp.swift */; };
+		7881BF6B2989CFA4002C6D56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF6A2989CFA4002C6D56 /* ContentView.swift */; };
+		7881BF6D2989CFA9002C6D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7881BF6C2989CFA9002C6D56 /* Assets.xcassets */; };
+		7881BF702989CFA9002C6D56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7881BF6F2989CFA9002C6D56 /* Preview Assets.xcassets */; };
+		7881BF7B2989CFA9002C6D56 /* vanjacloudmacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF7A2989CFA9002C6D56 /* vanjacloudmacTests.swift */; };
+		7881BF852989CFA9002C6D56 /* vanjacloudmacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */; };
+		7881BF872989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7881BF772989CFA9002C6D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7881BF5D2989CFA4002C6D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7881BF642989CFA4002C6D56;
+			remoteInfo = vanjacloudmac;
+		};
+		7881BF812989CFA9002C6D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7881BF5D2989CFA4002C6D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7881BF642989CFA4002C6D56;
+			remoteInfo = vanjacloudmac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7881BF652989CFA4002C6D56 /* vanjacloudmac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vanjacloudmac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7881BF682989CFA4002C6D56 /* vanjacloudmacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacApp.swift; sourceTree = "<group>"; };
+		7881BF6A2989CFA4002C6D56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7881BF6C2989CFA9002C6D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7881BF6F2989CFA9002C6D56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7881BF712989CFA9002C6D56 /* vanjacloudmac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vanjacloudmac.entitlements; sourceTree = "<group>"; };
+		7881BF762989CFA9002C6D56 /* vanjacloudmacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vanjacloudmacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7881BF7A2989CFA9002C6D56 /* vanjacloudmacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacTests.swift; sourceTree = "<group>"; };
+		7881BF802989CFA9002C6D56 /* vanjacloudmacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vanjacloudmacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacUITests.swift; sourceTree = "<group>"; };
+		7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7881BF622989CFA4002C6D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF732989CFA9002C6D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF7D2989CFA9002C6D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7881BF5C2989CFA4002C6D56 = {
+			isa = PBXGroup;
+			children = (
+				7881BF672989CFA4002C6D56 /* vanjacloudmac */,
+				7881BF792989CFA9002C6D56 /* vanjacloudmacTests */,
+				7881BF832989CFA9002C6D56 /* vanjacloudmacUITests */,
+				7881BF662989CFA4002C6D56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7881BF662989CFA4002C6D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7881BF652989CFA4002C6D56 /* vanjacloudmac.app */,
+				7881BF762989CFA9002C6D56 /* vanjacloudmacTests.xctest */,
+				7881BF802989CFA9002C6D56 /* vanjacloudmacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7881BF672989CFA4002C6D56 /* vanjacloudmac */ = {
+			isa = PBXGroup;
+			children = (
+				7881BF682989CFA4002C6D56 /* vanjacloudmacApp.swift */,
+				7881BF6A2989CFA4002C6D56 /* ContentView.swift */,
+				7881BF6C2989CFA9002C6D56 /* Assets.xcassets */,
+				7881BF712989CFA9002C6D56 /* vanjacloudmac.entitlements */,
+				7881BF6E2989CFA9002C6D56 /* Preview Content */,
+			);
+			path = vanjacloudmac;
+			sourceTree = "<group>";
+		};
+		7881BF6E2989CFA9002C6D56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7881BF6F2989CFA9002C6D56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7881BF792989CFA9002C6D56 /* vanjacloudmacTests */ = {
+			isa = PBXGroup;
+			children = (
+				7881BF7A2989CFA9002C6D56 /* vanjacloudmacTests.swift */,
+			);
+			path = vanjacloudmacTests;
+			sourceTree = "<group>";
+		};
+		7881BF832989CFA9002C6D56 /* vanjacloudmacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */,
+				7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */,
+			);
+			path = vanjacloudmacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7881BF642989CFA4002C6D56 /* vanjacloudmac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7881BF8A2989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmac" */;
+			buildPhases = (
+				7881BF612989CFA4002C6D56 /* Sources */,
+				7881BF622989CFA4002C6D56 /* Frameworks */,
+				7881BF632989CFA4002C6D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vanjacloudmac;
+			productName = vanjacloudmac;
+			productReference = 7881BF652989CFA4002C6D56 /* vanjacloudmac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7881BF752989CFA9002C6D56 /* vanjacloudmacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7881BF8D2989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmacTests" */;
+			buildPhases = (
+				7881BF722989CFA9002C6D56 /* Sources */,
+				7881BF732989CFA9002C6D56 /* Frameworks */,
+				7881BF742989CFA9002C6D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7881BF782989CFA9002C6D56 /* PBXTargetDependency */,
+			);
+			name = vanjacloudmacTests;
+			productName = vanjacloudmacTests;
+			productReference = 7881BF762989CFA9002C6D56 /* vanjacloudmacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7881BF7F2989CFA9002C6D56 /* vanjacloudmacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7881BF902989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmacUITests" */;
+			buildPhases = (
+				7881BF7C2989CFA9002C6D56 /* Sources */,
+				7881BF7D2989CFA9002C6D56 /* Frameworks */,
+				7881BF7E2989CFA9002C6D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7881BF822989CFA9002C6D56 /* PBXTargetDependency */,
+			);
+			name = vanjacloudmacUITests;
+			productName = vanjacloudmacUITests;
+			productReference = 7881BF802989CFA9002C6D56 /* vanjacloudmacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7881BF5D2989CFA4002C6D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7881BF642989CFA4002C6D56 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7881BF752989CFA9002C6D56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7881BF642989CFA4002C6D56;
+					};
+					7881BF7F2989CFA9002C6D56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7881BF642989CFA4002C6D56;
+					};
+				};
+			};
+			buildConfigurationList = 7881BF602989CFA4002C6D56 /* Build configuration list for PBXProject "vanjacloudmac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7881BF5C2989CFA4002C6D56;
+			productRefGroup = 7881BF662989CFA4002C6D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7881BF642989CFA4002C6D56 /* vanjacloudmac */,
+				7881BF752989CFA9002C6D56 /* vanjacloudmacTests */,
+				7881BF7F2989CFA9002C6D56 /* vanjacloudmacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7881BF632989CFA4002C6D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7881BF702989CFA9002C6D56 /* Preview Assets.xcassets in Resources */,
+				7881BF6D2989CFA9002C6D56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF742989CFA9002C6D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF7E2989CFA9002C6D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7881BF612989CFA4002C6D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7881BF6B2989CFA4002C6D56 /* ContentView.swift in Sources */,
+				7881BF692989CFA4002C6D56 /* vanjacloudmacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF722989CFA9002C6D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7881BF7B2989CFA9002C6D56 /* vanjacloudmacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7881BF7C2989CFA9002C6D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7881BF852989CFA9002C6D56 /* vanjacloudmacUITests.swift in Sources */,
+				7881BF872989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7881BF782989CFA9002C6D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7881BF642989CFA4002C6D56 /* vanjacloudmac */;
+			targetProxy = 7881BF772989CFA9002C6D56 /* PBXContainerItemProxy */;
+		};
+		7881BF822989CFA9002C6D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7881BF642989CFA4002C6D56 /* vanjacloudmac */;
+			targetProxy = 7881BF812989CFA9002C6D56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7881BF882989CFA9002C6D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7881BF892989CFA9002C6D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7881BF8B2989CFA9002C6D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vanjacloudmac/vanjacloudmac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vanjacloudmac/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7881BF8C2989CFA9002C6D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vanjacloudmac/vanjacloudmac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vanjacloudmac/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7881BF8E2989CFA9002C6D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vanjacloudmac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vanjacloudmac";
+			};
+			name = Debug;
+		};
+		7881BF8F2989CFA9002C6D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vanjacloudmac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vanjacloudmac";
+			};
+			name = Release;
+		};
+		7881BF912989CFA9002C6D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = vanjacloudmac;
+			};
+			name = Debug;
+		};
+		7881BF922989CFA9002C6D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE3VQHQC57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.oljaca.vanjacloudmacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = vanjacloudmac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7881BF602989CFA4002C6D56 /* Build configuration list for PBXProject "vanjacloudmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7881BF882989CFA9002C6D56 /* Debug */,
+				7881BF892989CFA9002C6D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7881BF8A2989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7881BF8B2989CFA9002C6D56 /* Debug */,
+				7881BF8C2989CFA9002C6D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7881BF8D2989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7881BF8E2989CFA9002C6D56 /* Debug */,
+				7881BF8F2989CFA9002C6D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7881BF902989CFA9002C6D56 /* Build configuration list for PBXNativeTarget "vanjacloudmacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7881BF912989CFA9002C6D56 /* Debug */,
+				7881BF922989CFA9002C6D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7881BF5D2989CFA4002C6D56 /* Project object */;
+}
