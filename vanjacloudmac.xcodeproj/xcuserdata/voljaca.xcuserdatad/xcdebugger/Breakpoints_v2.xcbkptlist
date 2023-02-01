@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4FB179EF-2EE8-4D3F-BDC0-EC97C362D632"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1F57FD9-B073-4FFC-A70C-2C76F74A7DFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vanjacloudmac/vanjacloudmacApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "applicationDidFinishLaunching(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AD2BFB5-6BAD-42BD-BB21-9C550432E2F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vanjacloudmac/vanjacloudmacApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "setupMenus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32FE6AE6-E83D-4D0F-BD34-DFD9B709D3D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vanjacloudmac/vanjacloudmacApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setupMenus()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32FE6AE6-E83D-4D0F-BD34-DFD9B709D3D6 - efe36d63584a93e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vanjacloudmac.AppDelegate.setupMenus() -&gt; ()"
+                  moduleName = "vanjacloudmac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/voljaca/play/vanjacloudmac/vanjacloudmac/vanjacloudmacApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "32FE6AE6-E83D-4D0F-BD34-DFD9B709D3D6 - efe36d63584a93e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vanjacloudmac.AppDelegate.setupMenus() -&gt; ()"
+                  moduleName = "vanjacloudmac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/voljaca/play/vanjacloudmac/vanjacloudmac/vanjacloudmacApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

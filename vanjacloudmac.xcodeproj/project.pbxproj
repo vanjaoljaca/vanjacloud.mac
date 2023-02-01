@@ -14,6 +14,7 @@
 		7881BF7B2989CFA9002C6D56 /* vanjacloudmacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF7A2989CFA9002C6D56 /* vanjacloudmacTests.swift */; };
 		7881BF852989CFA9002C6D56 /* vanjacloudmacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */; };
 		7881BF872989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */; };
+		788A2B3B298A239800C145A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788A2B3A298A239800C145A0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7881BF802989CFA9002C6D56 /* vanjacloudmacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vanjacloudmacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacUITests.swift; sourceTree = "<group>"; };
 		7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanjacloudmacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		788A2B3A298A239800C145A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7881BF6C2989CFA9002C6D56 /* Assets.xcassets */,
 				7881BF712989CFA9002C6D56 /* vanjacloudmac.entitlements */,
 				7881BF6E2989CFA9002C6D56 /* Preview Content */,
+				788A2B3A298A239800C145A0 /* Info.plist */,
 			);
 			path = vanjacloudmac;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				7881BF702989CFA9002C6D56 /* Preview Assets.xcassets in Resources */,
 				7881BF6D2989CFA9002C6D56 /* Assets.xcassets in Resources */,
+				788A2B3B298A239800C145A0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
