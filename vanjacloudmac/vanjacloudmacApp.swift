@@ -82,10 +82,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         //let urlsession = URLSession.new()
         let urlsession = URLSession.shared;
 
-        let notion_secret = "secret_i2La7aDHDagTttv2j9Gzj3FQXi5TMTYEfuC889hbMAr"
+        let notion_secret = "notionsecret"
 
-        let testdbid = "4ef4fb0714c9441d94b06c826e74d5d3"
-        let url2 = URL(string: "https://vanjacloudjs.azurewebsites.net/api/main/spotify")!
+        let testdbid = "testdbid"
+        let url2 = URL(string: "apiroot/spotify")!
 
         let notion = NotionClient(accessKeyProvider: StringAccessKeyProvider(accessKey: notion_secret))
 
