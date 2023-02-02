@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "notionswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chojnac/NotionSwift.git",
+      "state" : {
+        "revision" : "2e4c94b73b170c0455e405a875b923e6bd6290bd",
+        "version" : "0.7.3"
+      }
+    }
+  ],
+  "version" : 2
+}

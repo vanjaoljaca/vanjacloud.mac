@@ -15,6 +15,7 @@
 		7881BF852989CFA9002C6D56 /* vanjacloudmacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF842989CFA9002C6D56 /* vanjacloudmacUITests.swift */; };
 		7881BF872989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BF862989CFA9002C6D56 /* vanjacloudmacUITestsLaunchTests.swift */; };
 		788A2B3B298A239800C145A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788A2B3A298A239800C145A0 /* Info.plist */; };
+		788A2B3E298A4AD100C145A0 /* NotionSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 788A2B3D298A4AD100C145A0 /* NotionSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788A2B3E298A4AD100C145A0 /* NotionSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +150,9 @@
 			dependencies = (
 			);
 			name = vanjacloudmac;
+			packageProductDependencies = (
+				788A2B3D298A4AD100C145A0 /* NotionSwift */,
+			);
 			productName = vanjacloudmac;
 			productReference = 7881BF652989CFA4002C6D56 /* vanjacloudmac.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 7881BF5C2989CFA4002C6D56;
+			packageReferences = (
+				788A2B3C298A4AD100C145A0 /* XCRemoteSwiftPackageReference "NotionSwift" */,
+			);
 			productRefGroup = 7881BF662989CFA4002C6D56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -580,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		788A2B3C298A4AD100C145A0 /* XCRemoteSwiftPackageReference "NotionSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chojnac/NotionSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		788A2B3D298A4AD100C145A0 /* NotionSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788A2B3C298A4AD100C145A0 /* XCRemoteSwiftPackageReference "NotionSwift" */;
+			productName = NotionSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7881BF5D2989CFA4002C6D56 /* Project object */;
 }
